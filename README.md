@@ -1,6 +1,5 @@
 # S&P 500 Walk-Forward Modeling with Sklearn Pipelines
 
-
 This notebook provides a framework for building and evaluating walk-forward models for the S&P 500 index using Scikit-learn pipelines. 
 The S&P 500 is a widely recognized benchmark index for the US stock market, consisting of 500 of the largest publicly traded companies by market capitalization.
 
@@ -13,3 +12,20 @@ It's important to note that the results presented in this notebook should be tak
 
 Overall, this notebook provides a useful starting point for those interested in building walk-forward models for the S&P 500 or other financial data. The code is well-documented and includes detailed explanations of the various steps involved in the modeling process. Please feel free to fork the repository and adapt it to your own needs.
 
+## Table of contents
+* [Timeseries data](#timeseries)
+* [ARIMA model](#arima)
+* [GARCH model](#garch)
+
+## Technologies
+* Python version: 3.7
+
+## Timeseries
+### Original data
+![](images/SP500%20Historical%20Price.png)
+
+### Autocorrelation
+![](images/SP500%20Autocorrelation.png)
+
+### Daily Returns
+![](images/SP500%20Stationary.png)
