@@ -3,7 +3,7 @@
 This notebook provides a framework for building and evaluating walk-forward models for the S&P500 index using Scikit-learn pipelines. 
 The S&P500 is a widely recognized benchmark index for the US stock market, consisting of 500 of the largest publicly traded companies by market capitalization.
 
-Notebook provides a useful starting point for those interested in building walk-forward models for the S&P 500 or other financial data. The code is well-documented and includes detailed explanations of the various steps involved in the modeling process. Please feel free to fork the repository and adapt it to your own needs.
+It's a useful starting point for those interested in building walk-forward models for the S&P 500 or other financial data. The code is well-documented and includes detailed explanations of the various steps involved in the modeling process. Please feel free to fork the repository and adapt it to your own needs.
 
 ## Table of contents
 * [Feature Engineering] (#Feature)
