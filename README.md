@@ -14,28 +14,31 @@ Overall, this notebook provides a useful starting point for those interested in 
 
 ## Table of contents
 * [S&P500 Historical Data](#S&P500)
-* [Train-Test Split](#Train-Test Split)
-* [Out-of-Sample Forecast](#Out-of-Sample Forecast)
-* [Walk Forward Testing / Rolling Window Forecast](#Walk Forward Testing / Rolling Window Forecast)
+* [Train-Test Split](#Train-Test)
+* [Out-of-Sample Forecast](#Out-of-Sample)
+* [Walk Forward Testing / Rolling Window Forecast](#Walk)
 
 ## Technologies
 * Python version: 3.7
 
-## S&P500
-### Historical Data
+## S&P500 Historical Data
+### Price Data
 ![](images/SP500%20Real%20Price.png)
 
 ## Train-Test Split
-### Historical Data
+### Price Data
 ![](images/SP500%20Train%20Test.png)
-### Historical Daily Returns
+### Daily Returns
 ![](images/SP500%20Daily%20Returns.png)
 
 ## Out-of-Sample Forecast
 ### Price Data
+![](images/SP500%20Out-of-Sample%20Forecast%20Price.png)
 ### Daily Returns
-![](images/SP500%20Stationary.png)
+![](images/SP500%20Out-of-Sample%20Forecast%20Raw.png)
 
 ## Walk Forward Testing / Rolling Window Forecast
 ### Price Data
+![](images/SP500%20Walk-Forward%20Forecast%20Price.png)
 ### Daily Returns
+![](images/SP500%20Walk-Forward%20Forecast%20Raw.png)
