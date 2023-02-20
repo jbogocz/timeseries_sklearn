@@ -39,6 +39,6 @@ Overall, this notebook provides a useful starting point for those interested in 
 
 ## Walk Forward Testing / Rolling Window Forecast
 ### Price Data
-![](images/SP500%20Walk-Forward%20Forecast%20Price.png)
+![](images/SP500%20Walk-Forward%20Rorecast%20Price.png)
 ### Daily Returns
 ![](images/SP500%20Walk-Forward%20Forecast%20Raw.png)
