@@ -1,7 +1,7 @@
-# S&P 500 Walk-Forward Modeling with Sklearn Pipelines
+# S&P500 Walk-Forward Modeling with Sklearn Pipelines
 
-This notebook provides a framework for building and evaluating walk-forward models for the S&P 500 index using Scikit-learn pipelines. 
-The S&P 500 is a widely recognized benchmark index for the US stock market, consisting of 500 of the largest publicly traded companies by market capitalization.
+This notebook provides a framework for building and evaluating walk-forward models for the S&P500 index using Scikit-learn pipelines. 
+The S&P500 is a widely recognized benchmark index for the US stock market, consisting of 500 of the largest publicly traded companies by market capitalization.
 
 The model is trained on historical data and tested on out-of-sample data, allowing for a simulation of real-world trading scenarios. 
 The feature engineering process includes daily returns, High-Low percent change, Stoch RSI, SMA, Money Flow Index, OBV, etc. Additionally, the notebook includes the ability to check for correlation between features and the target, as well as between features themselves.
@@ -13,19 +13,29 @@ It's important to note that the results presented in this notebook should be tak
 Overall, this notebook provides a useful starting point for those interested in building walk-forward models for the S&P 500 or other financial data. The code is well-documented and includes detailed explanations of the various steps involved in the modeling process. Please feel free to fork the repository and adapt it to your own needs.
 
 ## Table of contents
-* [Timeseries data](#timeseries)
-* [ARIMA model](#arima)
-* [GARCH model](#garch)
+* [S&P500 Historical Data](#S&P500)
+* [Train-Test Split](#Train-Test Split)
+* [Out-of-Sample Forecast](#Out-of-Sample Forecast)
+* [Walk Forward Testing / Rolling Window Forecast](#Walk Forward Testing / Rolling Window Forecast)
 
 ## Technologies
 * Python version: 3.7
 
-## Timeseries
-### Original data
-![](images/SP500%20Historical%20Price.png)
+## S&P500
+### Historical Data
+![](images/SP500%20Real%20Price.png)
 
-### Autocorrelation
-![](images/SP500%20Autocorrelation.png)
+## Train-Test Split
+### Historical Data
+![](images/SP500%20Train%20Test.png)
+### Historical Daily Returns
+![](images/SP500%20Daily%20Returns.png)
 
+## Out-of-Sample Forecast
+### Price Data
 ### Daily Returns
 ![](images/SP500%20Stationary.png)
+
+## Walk Forward Testing / Rolling Window Forecast
+### Price Data
+### Daily Returns
