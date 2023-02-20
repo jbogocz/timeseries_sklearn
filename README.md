@@ -25,7 +25,7 @@ The feature engineering process includes:
 * Stoch RSI
 * SMA
 * Money Flow Index
-* On Balace Volume (OBV)
+* On Balace Volume (OBV)    
 Additionally, the notebook includes the ability to check for correlation between features and the target, as well as between features themselves.
 
 ## Forecasting Methods
